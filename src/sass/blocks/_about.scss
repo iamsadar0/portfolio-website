@@ -16,6 +16,9 @@
     }
     &__descr {
         padding-top: 6px;
+        .divider {
+            margin: 0;
+        }
     }
     &__title {
         position: relative;

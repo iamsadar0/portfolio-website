@@ -17,7 +17,7 @@
 height: 3px;
 width: 60px;
 background-color: $main-color;
-margin-top: 25px;
+margin: 25px auto 0 auto;
 }
 
 @import 'blocks/_promo.scss';
@@ -26,3 +26,5 @@ margin-top: 25px;
 @import 'blocks/_sidepanel.scss';
 @import 'blocks/_menu.scss';
 @import 'blocks/about.scss';
+@import 'blocks/resume';
+@import 'blocks/skills';
