@@ -3,8 +3,8 @@
     &__wrapper {
         margin: 60px 50px 0;
         display: grid;
-        grid-template: repeat(2, 44px) / 373px 366px;
-        grid-auto-rows: 44px;
+        grid-template: repeat(2, minmax(44px, auto)) / repeat(2, 365px);
+        grid-auto-rows: minmax(45, auto);
         justify-content: space-between;
         row-gap: 15px;
 
@@ -12,8 +12,8 @@
     &__item {
         list-style-type: none;
         display: grid;
-        grid-template-columns: 185px 121px;
-        grid-template-rows: 21px 18px;
+        grid-template: repeat(2, minmax(21px, auto)) / repeat(2, auto);
+        row-gap: 5px;
         justify-content: space-between;
         &-name {
             font-weight: bold;
