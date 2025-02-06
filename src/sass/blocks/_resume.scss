@@ -68,6 +68,9 @@
             top: 50px;
             left: 45px;
             @include before_circle;
+            &::before {
+                transform: translateY(0%);
+            }
             img {
                 position: absolute;
                 left: 17px;

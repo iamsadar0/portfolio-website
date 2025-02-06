@@ -3,7 +3,8 @@
         content: "";
         position: absolute;
         z-index: -1;
-        top: -31%;
+        top: 50%;
+        transform: translateY(-50%);
         left: 0;
         width: 36px;
         height: 36px;
