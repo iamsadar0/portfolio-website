@@ -10,3 +10,12 @@ hamburger.addEventListener('click', () => {
 closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 })
+
+
+const percent = document.querySelectorAll('.parameters__item-percent'),
+    scales = document.querySelectorAll('.parameters__item-value');
+
+percent.forEach((item, i) => {
+    scales[i].style.width = item.innerHTML;
+});
+
