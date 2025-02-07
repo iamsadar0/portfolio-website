@@ -24,6 +24,12 @@
             }
         }
     }
+    .resume {
+        &__wrapper {
+            column-gap: 69px;
+            grid-template-columns: repeat(2, 380px);
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -46,6 +52,17 @@
                 grid-template-columns: 40px 320px;
                 column-gap: 20px;
             }
+        }
+    }
+    .resume {
+        .divider {
+            margin-top: 13.5px;
+
+        }
+        &__wrapper {
+            padding-top: 41.5px;
+            grid-template-columns: 1fr;
+            row-gap: 41.5px;
         }
     }
 }
