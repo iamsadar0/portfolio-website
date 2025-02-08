@@ -30,6 +30,17 @@
             grid-template-columns: repeat(2, 380px);
         }
     }
+    .skills {
+        &__items {
+            grid-template-columns: repeat(3, 304px);
+        }
+    }
+    .parameters {
+        &__items {
+            grid-template-columns: 350px 350px;
+            justify-content: space-around;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -53,6 +64,7 @@
                 column-gap: 20px;
             }
         }
+
     }
     .resume {
         .divider {
@@ -63,6 +75,19 @@
             padding-top: 41.5px;
             grid-template-columns: 1fr;
             row-gap: 41.5px;
+        }
+    }
+    .skills {
+        &__items {
+            grid-template-columns: repeat(2, 343px);
+        }
+        &__item {
+            padding-top: 30px;
+        }
+    }
+    .parameters {
+        &__items {
+            grid-template-columns: 324px 350px;
         }
     }
 }
@@ -101,12 +126,27 @@
         }
         &__skills {
             grid-template-columns: repeat(2, 260px);
+            
             &-item {
                 grid-template-columns: 40px 200px;
                 column-gap: 20px;
             }
         }
     }
+    .skills {
+        &__items {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, minmax(150px, auto));
+            grid-auto-rows: minmax(150px, auto);
+        }
+    }
+    .parameters {
+        margin-top: 48px;
+        &__items {
+            grid-template-columns: 350px;
+        }
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -138,6 +178,26 @@
         }
         &__skills {
             grid-template-columns: 1fr ;
+        }
+    }
+    .resume {
+        padding-top: 48px;
+        &__wrapper {
+            padding: 41.5px 0 0 0;
+            grid-template-columns: 300px;
+            justify-content: center;
+        }
+    }
+    .skills {
+        margin-top: 46px;
+        &__items {
+            grid-template: 270px / 270px;
+            justify-content: center;
+        }
+    }
+    .parameters {
+        &__items {
+            grid-template-columns: 300px;
         }
     }
 }
