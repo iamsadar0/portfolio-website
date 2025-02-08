@@ -18,11 +18,12 @@
         &-name {
             font-weight: bold;
             position: relative;
+            padding-left: 25px;
             @include before_circle;
             &:before {
                 width: 15px;
                 height: 15px;
-                left: -25px;
+                left: 0px;
             }
         }
         &-value {

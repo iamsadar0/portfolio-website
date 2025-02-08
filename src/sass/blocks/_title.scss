@@ -21,7 +21,7 @@
         line-height: 30px;
     }
     &__section-title {
-        position: relative;
+            position: relative;
             text-align: center;
             @include before_circle;
             &:before {
